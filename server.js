@@ -1,8 +1,4 @@
-if (process.env.NODE_ENV !== "production") {
-    require("dotenv").config()
-}
-
-
+require("dotenv").config()
 // Importing all Libraies that we installed using npm
 const express = require("express")
 const app = express()
